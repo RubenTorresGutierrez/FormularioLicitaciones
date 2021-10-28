@@ -6,6 +6,10 @@
 */
 
 *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -18,6 +22,28 @@ body{
 h1{
     text-align: center;
     color: rgb(41, 41, 41);
+}
+
+/***** NAV *****/
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(35, 41, 46);
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li > a{
+    display: block;
+    padding: 20px;
+    color: white;
+}
+
+nav li > a:hover{
+    background-color: rgb(36, 43, 49);
 }
 
 /***** FORM *****/
